@@ -1,0 +1,98 @@
+/***
+1. CSS Resets
+网络上关于CSS重置的代码非常多。本段代码是根据Eric Meyer’s reset codes进行改编的，里面包含一点响应式图片和所有核心元素的边界框设置，这样就可以保持页边距和填充可以很好地对齐。
+***/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { height: 101%; }
+body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, sans-serif; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+p { font-size: 1.2em; line-height: 1.0em; color: #333; }
+
+/**
+2.经典的CSS Clearfix
+这个clearfix代码已在Web开发者之间广泛流传，这段类选择器要应用到持有浮动元素的容器中，确保后面的内容都不会浮动，但会被下推和清除。
+ * */
+.clearfix:before, .container:after { content: ""; display: table; }<font></font>
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+/**个性化的圆角代码
+许多CSS开发者都非常熟悉圆角语法，但如何为每个角设置不同的值？不如看看下面这段代码吧！**/
+#container {
+    -webkit-border-radius: 4px 3px 6px 10px;
+    -moz-border-radius: 4px 3px 6px 10px;
+    -o-border-radius: 4px 3px 6px 10px;
+    border-radius: 4px 3px 6px 10px;
+}
+/* alternative syntax broken into each line */
+#container {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-rightright-radius: 3px;
+    -webkit-border-bottom-rightright-radius: 6px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-bottomleft: 10px;
+}
+/** 一般媒体查询
+这是一段非常好的模板，用于各种零零碎碎的媒体查询，在移动设备上也可以使用，这段代码甚至可以通过使用min-device-pixel-ratio引用到视网膜设备上。**/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+<font></font>
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}  
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+/* Styles */
+}
+
+
+
