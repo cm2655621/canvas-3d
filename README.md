@@ -1,7 +1,7 @@
 # canvas-3d
 >canvas画布的3d动画效果
 
-[![](images/3d-222.jpg)](3d_222.html)
+[![](../images/3d-222.jpg)](../3d_222.html)
 
 [![](https://cm2655621.github.io/canvas-3d/images/jq22-code1.jpg)](https://cm2655621.github.io/canvas-3d/jq22-code1.html)
 
