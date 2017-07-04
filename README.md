@@ -1,11 +1,11 @@
 # canvas-3d
 >canvas画布的3d动画效果
 
-<a href="https://cm2655621.github.io/canvas-3d/3d_222.html" target="_blank"><img src="https://cm2655621.github.io/canvas-3d/images/3d-222.jpg" /></a>
+[![](https://cm2655621.github.io/canvas-3d/images/3d-222.jpg)](https://cm2655621.github.io/canvas-3d/3d_222.html){:target="_blank"}
 
-<a href="https://cm2655621.github.io/canvas-3d/jq22-code1.html" target="_blank">![](https://cm2655621.github.io/canvas-3d/images/jq22-code1.jpg)</a>
+[![](https://cm2655621.github.io/canvas-3d/images/jq22-code1.jpg)](https://cm2655621.github.io/canvas-3d/jq22-code1.html)
 
-[![](https://cm2655621.github.io/canvas-3d/images/jq22-code2.jpg)](https://cm2655621.github.io/canvas-3d/jq22-code2.html){:target="_blank"}
+[![](https://cm2655621.github.io/canvas-3d/images/jq22-code2.jpg)](https://cm2655621.github.io/canvas-3d/jq22-code2.html)
 
 [![](https://cm2655621.github.io/canvas-3d/images/jq22-code3.jpg)](https://cm2655621.github.io/canvas-3d/jq22-code3.html)
 
